@@ -11,6 +11,8 @@
 		AD9023DB2D502DC80026AB2D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9023DA2D502DC80026AB2D /* ContentView.swift */; };
 		AD9023DD2D502DCA0026AB2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD9023DC2D502DCA0026AB2D /* Assets.xcassets */; };
 		AD9023E02D502DCA0026AB2D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD9023DF2D502DCA0026AB2D /* Preview Assets.xcassets */; };
+		AD9023E72D502E7E0026AB2D /* SetCardGameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9023E62D502E7E0026AB2D /* SetCardGameModel.swift */; };
+		AD9023E92D502E950026AB2D /* SetCardGameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9023E82D502E950026AB2D /* SetCardGameViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		AD9023DA2D502DC80026AB2D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AD9023DC2D502DCA0026AB2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD9023DF2D502DCA0026AB2D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AD9023E62D502E7E0026AB2D /* SetCardGameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetCardGameModel.swift; sourceTree = "<group>"; };
+		AD9023E82D502E950026AB2D /* SetCardGameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetCardGameViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,8 @@
 		AD9023D72D502DC80026AB2D /* SetCardGame */ = {
 			isa = PBXGroup;
 			children = (
+				AD9023E82D502E950026AB2D /* SetCardGameViewModel.swift */,
+				AD9023E62D502E7E0026AB2D /* SetCardGameModel.swift */,
 				AD9023D82D502DC80026AB2D /* SetCardGameApp.swift */,
 				AD9023DA2D502DC80026AB2D /* ContentView.swift */,
 				AD9023DC2D502DCA0026AB2D /* Assets.xcassets */,
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD9023DB2D502DC80026AB2D /* ContentView.swift in Sources */,
+				AD9023E92D502E950026AB2D /* SetCardGameViewModel.swift in Sources */,
 				AD9023D92D502DC80026AB2D /* SetCardGameApp.swift in Sources */,
+				AD9023E72D502E7E0026AB2D /* SetCardGameModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
