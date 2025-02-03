@@ -15,15 +15,20 @@ import SwiftUI
 struct ContentView: View {
     @ObservedObject var vm: SetCardGameViewModel = SetCardGameViewModel(model: SetCardGame())
     var body: some View {
-        Text("Hello World")
+        VStack {
+            Text("Welcome To Set Game")
+            ZStack {
+                AspectVGrid(vm: vm)
+            }
+            Button(action: {
+                vm.addThreeCards()
+            }) {
+                Text("Tap me")
+            }
+        }
     }
 }
 
-struct ShapeView {
-    var shape: Shape
-    var shading: Shading
-    var color: Color
-}
 #Preview {
     ContentView()
 }
