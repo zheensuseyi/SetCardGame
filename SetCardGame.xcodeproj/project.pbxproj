@@ -15,6 +15,7 @@
 		AD9023E92D502E950026AB2D /* SetCardGameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9023E82D502E950026AB2D /* SetCardGameViewModel.swift */; };
 		AD9023EB2D5170BF0026AB2D /* AspectVGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9023EA2D5170BF0026AB2D /* AspectVGrid.swift */; };
 		AD9023ED2D5171440026AB2D /* ShapeInitializationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9023EC2D5171440026AB2D /* ShapeInitializationView.swift */; };
+		AD9023F32D52AC520026AB2D /* CardEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9023F22D52AC520026AB2D /* CardEnums.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		AD9023E82D502E950026AB2D /* SetCardGameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetCardGameViewModel.swift; sourceTree = "<group>"; };
 		AD9023EA2D5170BF0026AB2D /* AspectVGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AspectVGrid.swift; sourceTree = "<group>"; };
 		AD9023EC2D5171440026AB2D /* ShapeInitializationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeInitializationView.swift; sourceTree = "<group>"; };
+		AD9023F22D52AC520026AB2D /* CardEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardEnums.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				AD9023D82D502DC80026AB2D /* SetCardGameApp.swift */,
 				AD9023DA2D502DC80026AB2D /* ContentView.swift */,
 				AD9023EC2D5171440026AB2D /* ShapeInitializationView.swift */,
+				AD9023F22D52AC520026AB2D /* CardEnums.swift */,
 				AD9023EA2D5170BF0026AB2D /* AspectVGrid.swift */,
 				AD9023DC2D502DCA0026AB2D /* Assets.xcassets */,
 				AD9023DE2D502DCA0026AB2D /* Preview Content */,
@@ -151,6 +154,7 @@
 			files = (
 				AD9023DB2D502DC80026AB2D /* ContentView.swift in Sources */,
 				AD9023E92D502E950026AB2D /* SetCardGameViewModel.swift in Sources */,
+				AD9023F32D52AC520026AB2D /* CardEnums.swift in Sources */,
 				AD9023D92D502DC80026AB2D /* SetCardGameApp.swift in Sources */,
 				AD9023EB2D5170BF0026AB2D /* AspectVGrid.swift in Sources */,
 				AD9023ED2D5171440026AB2D /* ShapeInitializationView.swift in Sources */,

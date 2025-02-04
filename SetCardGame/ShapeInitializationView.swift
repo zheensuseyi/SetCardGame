@@ -1,18 +1,7 @@
 import SwiftUI
 
-enum CardShape {
-    case circle, square, triangle
-}
-
-enum CardShading {
-    case solid, striped, outlined
-}
-
-enum CardColor {
-    case red, green, purple
-}
-
 struct ShapeInitializationView: View {
+    
     let shape: CardShape
     let color: CardColor
     let shading: CardShading

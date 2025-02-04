@@ -23,6 +23,7 @@ struct SetCardGame {
         self.cardDeck = genCardDeck(shapes: shapes, shadings: shadings, colors: colors, numbersOfShapes: numbersOfShapes)
         self.currentDeck = genCurrentDeck()
     }
+    
     private func genCardDeck(shapes: [CardShape], shadings: [CardShading], colors: [CardColor], numbersOfShapes: [Int]) ->  Array<Card<CardShape, CardShading, CardColor>> {
         var cardDeck: [Card<CardShape, CardShading, CardColor>] = []
         for shape in shapes {
